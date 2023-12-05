@@ -10,6 +10,10 @@ Inside the Infrastructure project we have the folder "Persistence/Migrations" in
 <code>Update-Database</code>
 4. The database should be created successfully
 
+The credentials for the SQL Server are configured in the docker-compose.yml file, those credentials are:
+- Username: sa
+- Password: Local1234
+
 ## HOW TO SETUP AND RUN APPLICATION
 
 Make sure to have docker desktop installed on the computer in order to be able to follow these steps.
